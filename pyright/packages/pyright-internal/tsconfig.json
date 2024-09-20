@@ -1,0 +1,20 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "outDir": "./out",
+        "paths": {
+        }
+    },
+    "include": [
+        "src/**/*",
+        "src/localization/*.json",
+        "**/*.js",
+        "package.json",
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "out",
+        "debug.js",
+    ]
+}

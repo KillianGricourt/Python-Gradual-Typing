@@ -1,0 +1,12 @@
+"use strict";
+/// <reference path="fourslash.ts" />
+// @filename: test.py
+//// a = 42
+//// a.n[|/*marker1*/|]
+// @ts-ignore
+await helper.verifyCompletion('included', 'markdown', {
+    marker1: {
+        completions: [{ label: 'numerator', kind: Consts.CompletionItemKind.Property }],
+    },
+});
+//# sourceMappingURL=completions.included.fourslash.js.map

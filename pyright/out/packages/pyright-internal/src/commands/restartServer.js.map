@@ -1,0 +1,1 @@
+{"version":3,"file":"restartServer.js","sourceRoot":"","sources":["../../../../../packages/pyright-internal/src/commands/restartServer.ts"],"names":[],"mappings":";AAAA;;;;;;GAMG;;;AAOH,MAAa,oBAAoB;IAC7B,YAAoB,GAA4B;QAA5B,QAAG,GAAH,GAAG,CAAyB;IAAG,CAAC;IAEpD,KAAK,CAAC,OAAO,CAAC,SAA+B;QACzC,IAAI,CAAC,GAAG,CAAC,OAAO,EAAE,CAAC;IACvB,CAAC;CACJ;AAND,oDAMC"}
